@@ -2,17 +2,15 @@
 /**
  * main - entry point
  *
- * Description: A C program using printf function
+ * Description: A C program to print
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Success)
 */
-void myFunction(void)
-{
-	printf("and that piece of art is useful"" - Dora Korpar, 2015-10-19\n");
-}
+
 int main(void)
 
 {
-	myFunction();
+	write(1, "and that piece of art is useful" - Dora Korpar, "2015-10-19\n", 59);
+}
 return (1);
 }
