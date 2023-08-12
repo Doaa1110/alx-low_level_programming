@@ -5,7 +5,7 @@
 /**
  * main - entry point
  *
- * Description: A C program using the last digit
+ * Description: A C program using the l_digit
  *
  * Return: Always 0 (Success)
 */
@@ -22,7 +22,7 @@ int main(void)
 		printf("Last digit of %i is %i and is greater than 5\n", n, l_digit);
 	else if (l_digit == 0)
 		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, l_digit);
-	else if (l_digit < 6 && Last_digit != 0)
+	else if (l_digit < 6 && l_digit != 0)
 		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, l_digit);
 	return (0);
 }
