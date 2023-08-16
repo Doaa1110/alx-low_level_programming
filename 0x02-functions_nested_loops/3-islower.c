@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _islower - function to check lowercae
+ * _islower - function to check lowercae
  *
  * @c: check input of function
  *
