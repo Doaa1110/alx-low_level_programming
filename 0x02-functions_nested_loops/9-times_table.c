@@ -3,7 +3,7 @@
 /**
  * times_table - function that prints the 9 times
  *
- * Return: Always 0.
+ *
  */
 
 void times_table(void)
@@ -16,7 +16,8 @@ void times_table(void)
 		for (tt = 1; tt <= 9; tt++)
 		{
 			_putchar(',');
-			_putchar(' ');	
+			_putchar(' ');
+
 			round = n * tt;
 			if (round <= 9)
 				_putchar(' ');
@@ -25,5 +26,4 @@ void times_table(void)
 			 _putchar((round % 10) + 48);
 		}
 		_putchar('\n');
-return (0);
 	}
