@@ -14,6 +14,6 @@ int add(int n1, int n2)
 {
 	int result;
 result = n1 + n2;
-_putchar("%d\n", result);
+printf("%i\n", result);
 return (0);
 }
