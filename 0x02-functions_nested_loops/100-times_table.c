@@ -24,7 +24,7 @@ void print_times_table(int n)
 
 			round = num * t;
 			if (round <= 9)
-				_putcahr(' ');
+				_putchar(' ');
 			if (round <= 99)
 				_putchar(' ');
 			if (round >= 100)
