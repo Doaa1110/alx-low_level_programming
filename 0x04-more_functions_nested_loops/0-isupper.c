@@ -5,12 +5,12 @@
  *
  * @c: for check
  *
- * Return: Always 0
+ * Return: 1 if upper, 0 if not upper
 */
 
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
