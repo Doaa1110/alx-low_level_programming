@@ -23,7 +23,7 @@ char *leet(char *ch)
 		{
 			if (*ch == i[j] || *ch == i[j] + 32)
 			{
-				*ch = 48 + value[j];
+				*ch = 48 + v[j];
 			}
 		}
 		ch++;
