@@ -10,8 +10,8 @@ void print_dog(struct dog *d)
 {
 	if (d)
 	{
-		printf("my_dog.name %s\n", d->name ? d->name "(poppy)");
-		printf("my_dog.age %f\n", d->age);
-		printf("my_dog.owner %s\n", d->owner ? d->owner "(bob)");
+		printf("Name: %s\n", d->name ? d->name : "(nil)");
+		printf("Age: %f\n", d->age);
+		printf("Owner: %s\n", d->owner ? d->owner : "(nil)");
 	}
 }
