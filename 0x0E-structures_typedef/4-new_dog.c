@@ -1,0 +1,20 @@
+#include "dog.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * print_dog - function that print  struct dog
+ * @d: pointer
+ *
+ * Return: void
+ */
+dog_t *new_dog(char *name, float age, char *owner)
+{
+	if (d == NULL)
+		return;
+	if (d->name == NULL)
+		d->name = "(nil)";
+	if (d->owner == NULL)
+		d->owner = "(nil)";
+	printf("Name: %s\nAge: %f\nOwner: %s\n", d->name, d->age, d->owner);
+}
